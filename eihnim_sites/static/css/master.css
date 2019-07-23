@@ -1,0 +1,90 @@
+body {
+    color: #404040;
+    font-family: 'Dosis', serif;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+a {
+    color: #404040;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+img{
+    width:100%;
+}
+/* header ----------------------- */
+h1 {
+
+    font-family: 'Amatic SC',sans-serif;
+    color: #000;
+    color: hsl(0, 0%, 0%);
+    -ms-word-break: break-word;
+    word-break: break-word;
+}
+a::after{
+    text-decoration: none;
+}
+h1 a:hover{
+    color: #404040;
+    font-weight: 600;
+}
+#header-heading{
+    text-align: center;
+    font-weight: bold;
+    font-size:64px;
+}
+/* end header -------------------- */
+/* header menu ---------------------*/
+#header-menu{
+    font-family: 'Dosis',sans-serif;
+}
+#header-menu .navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+#header-menu .active a {
+    background-color: transparent;
+    font-weight: 500;
+}
+#header-menu a{
+    font-size:22px;
+
+}
+
+/* end header menu -----------------*/
+/* body */
+article{
+    margin-bottom: 50px;
+    padding: 0 64px;
+}
+.article-component{
+    margin: 24px 0;
+}
+.article-heading h1{
+    font-size:54px;
+}
+.article-info {
+    padding-left:50px;
+}
+.article-info span{
+    font-size:18px;
+    margin-right:10px;
+}
+.article-shortdescription{
+    font-size: 18px;
+
+}
+
+/* end body */
+/* footer */
+#footer h3{
+    text-align: center;
+}
+/* end footer */
